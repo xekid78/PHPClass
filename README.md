@@ -8,11 +8,11 @@
 ```
 <?php
 class Greeting {
-    public function __construct($word) {
+    function __construct($word) {
         $this->msg = $word;
     }
 
-    public function helloworld() {
+    function helloworld() {
         echo $this->msg."\n";
     }
 }
